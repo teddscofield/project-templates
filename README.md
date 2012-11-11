@@ -14,3 +14,20 @@ So far, here are the fixings:
   * underscore - 1.4.2
   * backbone - 0.9.2
   * reset.css - 2.0
+
+
+Coming Soon...
+--------------
+... maybe.  If I decide I care enough.  But anyway, some templates I may throw together:
+
+  * PhoneGap
+    A starter PhoneGap (Cordova) project for Android, iOS and possibly others.  Would like to crystalize the directory and file structure with verbose documentation to explain reasoning, common workflow, pitfalls, etc.  Would serve as a good home for some starter styling.
+
+  * SpringMVC
+    A SpringMVC project that renders JSON, XML, RSS in addition to desktop and mobile web views.
+
+  * Spring Data Service
+    Just like the MVC project but with emphasis on server-side technologies dealing with persistance and transactions.  So JPA (Hibernate), JMS, JTA
+
+  * Maven POM's and ant scripts
+    Everything from global settings I like to common dependencies, project structures and archtypes.
