@@ -11,6 +11,18 @@ I documented the hell out of everything so that I'll actually remember what
 everything is for, why it is use, etc.  Would be cool if it helped explain
 things to someone else too. :)
 
+## TODO
+
+[X] task running and build scripting
+[X] project init script
+[X] dev server
+[P] project directory structure.  this is fluid, still figuring out what I like
+[X] javascript source linter
+[ ] css preprocessing
+[ ] unit testing
+[ ] hello-world backbone impl
+[ ] trumped up MVC example added on to hello world
+
 ## Tools and Libraries
 
 ### develop and build time
