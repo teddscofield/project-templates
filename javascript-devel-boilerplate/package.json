@@ -1,0 +1,11 @@
+{
+  "name": "tss-basic-boilerplate",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "connect-livereload": "latest",
+    "grunt-contrib-connect": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-jshint": "latest"
+  }
+}
