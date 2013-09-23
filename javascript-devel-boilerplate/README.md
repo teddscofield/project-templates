@@ -68,3 +68,45 @@ You'll most likely need to update file paths as the library vendors switch
 things around.  Such is life.  Once you have a stack tuned the way you like
 it, set the dependency versions EXACT version numbers instead of 'latest' to
 stabilize the project.
+
+
+## npm and bower deps
+
+Since I cannot comment the package json files, I'll give it a try here.
+
+I am going with "latest" for all the versions.  I'll replace it with actual
+version numbers when a project gets close to be stable to avoid a stealth
+upgrade.  Been bitten by that more times than I care to think of in the maven
+world and just as many times in the javascript world (voltile!).
+
+// bower deps
+"dependencies": {
+  // module definition and loading.  Akin to java packages
+  "requirejs": "latest",
+
+  // underscore replacement, nice util library, backbone needs it.
+  "lodash": "latest",
+
+  // good old jquery.  DOM query & manipulation, ajax handling, deferred's
+  // generalized event mgmt.
+  "jquery": "latest",
+
+  // MV* framework of choice.
+  "backbone": "latest"
+}
+
+// npm deps
+"devDependencies": {
+
+  // live reloading when files change
+  "connect-livereload": "latest",
+
+  // development server that kicks ass for front-end, client development
+  "grunt-contrib-connect": "latest",
+
+  // file watcher, events when files change
+  "grunt-contrib-watch": "latest",
+
+  // javascript linter.  a real nazi.  do what it says
+  "grunt-contrib-jshint": "latest"
+}

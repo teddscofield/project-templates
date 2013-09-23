@@ -1,7 +1,9 @@
 {
-  "name": "tss-basic-boilerplate",
+  "name": "javascript-devel-boilerplate",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    
+    },
   "devDependencies": {
     "connect-livereload": "latest",
     "grunt-contrib-connect": "latest",
